@@ -6,7 +6,7 @@ hero:
   name: "Versakit"
   text: "Vue3组件库"
   image:
-    src: /logo.png
+    src: logo.png
     alt: Versakit
   actions:
     - theme: brand
