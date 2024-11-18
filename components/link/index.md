@@ -4,7 +4,7 @@
 
 <p>基础的文字链接用法。</p>
 
-<demo vue="../../example/Link/base.vue"></demo>
+<demo vue="../../example/link/base.vue"></demo>
 
 ## 禁用状态
 
