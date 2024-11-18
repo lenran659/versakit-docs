@@ -28,10 +28,10 @@ import {
   withCtx,
   withDirectives,
   withModifiers
-} from "./chunk-CQOUZRMK.js";
+} from "./chunk-VJWGEPT5.js";
 import "./chunk-5WRI5ZAA.js";
 
-// node_modules/.pnpm/versakit-ui@0.0.9/node_modules/versakit-ui/dist/versakit-ui.js
+// node_modules/versakit-ui/dist/versakit-ui.js
 var ce = defineComponent({
   __name: "index",
   props: {

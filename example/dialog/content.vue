@@ -28,7 +28,7 @@ const dialogVisible = ref(false);
 const dialogFromVisible = ref(false);
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .t-dialog_footer .t-btn {
   margin-right: 20px;
 }

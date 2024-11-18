@@ -11,7 +11,7 @@
 import { VerContainer, VerHeader, VerMain } from "versakit-ui";
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .common-layout {
   .is-vertical {
     flex-direction: column;

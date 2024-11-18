@@ -21,7 +21,7 @@
 import { VerRow, VerCol } from "versakit-ui";
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .col-box {
   display: flex;
   align-items: center;

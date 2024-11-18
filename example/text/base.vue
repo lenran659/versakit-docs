@@ -13,7 +13,7 @@ import { VerRow, VerText } from "versakit-ui";
   </ver-row>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .mx4 {
   margin: 0px 10px;
 }

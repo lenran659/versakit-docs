@@ -31,7 +31,7 @@
 import { VerRow, VerCol } from "versakit-ui";
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .col-box {
   border-radius: 4px;
   min-height: 36px;

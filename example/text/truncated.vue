@@ -8,7 +8,7 @@ import { VerRow, VerText } from "versakit-ui";
   </ver-row>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .w-100px {
   width: 100px;
 }

@@ -21,7 +21,7 @@ import { VerButton, VerRow } from "versakit-ui";
   </ver-row>
 </template>
 
-<style lang="scss" scoped>
+<style scoped>
 .mb-4 {
   margin-bottom: 1rem;
 }

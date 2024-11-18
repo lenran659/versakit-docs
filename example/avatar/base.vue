@@ -33,7 +33,7 @@
 import { VerAvatar, VerRow, VerCol } from "versakit-ui";
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .demo-basic {
   text-align: center;
 }

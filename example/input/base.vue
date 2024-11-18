@@ -11,4 +11,4 @@ import { VerInput, VerRow } from "versakit-ui";
 const value = ref("");
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped></style>

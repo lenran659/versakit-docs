@@ -12,7 +12,7 @@
 import { VerCard } from "versakit-ui";
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .card-header {
   display: flex;
   justify-content: space-between;

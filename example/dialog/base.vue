@@ -20,7 +20,7 @@ import { ref } from "vue";
 const dialogVisible = ref(false);
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .ver-dialog_footer .ver-btn {
   margin-right: 20px;
 }
