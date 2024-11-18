@@ -10,6 +10,6 @@
 
 <p>文字链接不可用状态。</p>
 
-<demo vue="../../example/Link/disable.vue"></demo>
+<demo vue="../../example/link/disable.vue"></demo>
 
 ## Link Api
