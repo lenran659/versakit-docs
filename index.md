@@ -12,9 +12,6 @@ hero:
     - theme: brand
       text: 开始使用
       link: /guide/installation/
-    - theme: alt
-      text: 在 Gitee 上查看
-      link: https://gitee.com/dragon_water/tui
 
 features:
   - icon: 💡

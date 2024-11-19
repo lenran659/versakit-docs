@@ -27,7 +27,13 @@ export default defineConfig({
       "/components/": getComponentsSidebar(),
     },
 
-    socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/lenran659/versakit-ui" },
+      {
+        icon: "gitee",
+        link: "https://gitee.com/dragon_water/versakit-ui#/dragon_water/versakit-ui/blob/master/%22https:/lenran659.github.io/versakit-docs/%22",
+      },
+    ],
   },
   markdown: {
     config(md) {
