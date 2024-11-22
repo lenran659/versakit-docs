@@ -17,13 +17,13 @@ import { VerContainer, VerHeader, VerMain } from "versakit-ui";
     flex-direction: column;
   }
 
-  .t-header {
+  .ver-header {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #c6e2ff;
   }
-  .t-main {
+  .ver-main {
     display: flex;
     justify-content: center;
     align-items: center;

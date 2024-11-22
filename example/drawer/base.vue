@@ -2,7 +2,7 @@
   <div>
     <VerButton @click="drawer = true">打开抽屉</VerButton>
 
-    <VerDrawer v-model:visible="drawer">
+    <VerDrawer v-model="drawer">
       <span> 我是内容</span>
     </VerDrawer>
   </div>

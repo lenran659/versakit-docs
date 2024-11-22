@@ -32,7 +32,7 @@ const info = () => {
 
 const error = () => {
   VerMessage({
-    type: "error",
+    type: "danger",
     content: "这是一条消息",
   });
 };
