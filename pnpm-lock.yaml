@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      versakit-ui:
-        specifier: ^0.1.2
-        version: 0.1.2
     devDependencies:
       vitepress:
         specifier: ^1.5.0
@@ -706,9 +702,6 @@ packages:
 
   unist-util-visit@5.0.0:
     resolution: {integrity: sha512-MR04uvD+07cwl/yhVuVWAtw+3GOR/knlL55Nd/wAdblk27GCVt3lqpTivy/tkJcZoNPzTwS1Y+KMojlLDhoTzg==}
-
-  versakit-ui@0.1.2:
-    resolution: {integrity: sha512-xBwCdfPjM5EN88kekoD4KcGqzQMwZjwhaMFfZzJREr0+s0z8f7fY6pc/8Tc8vPOxHjZjQo6lwJRwjC/PQMtEcQ==}
 
   vfile-message@4.0.2:
     resolution: {integrity: sha512-jRDZ1IMLttGj41KcZvlrYAaI3CfqpLpfpf+Mfig13viT6NKvRzWZ+lXz0Y5D60w6uJIBAOGq9mSHf0gktF0duw==}
@@ -1475,12 +1468,6 @@ snapshots:
       '@types/unist': 3.0.3
       unist-util-is: 6.0.0
       unist-util-visit-parents: 6.0.1
-
-  versakit-ui@0.1.2:
-    dependencies:
-      vue: 3.5.13
-    transitivePeerDependencies:
-      - typescript
 
   vfile-message@4.0.2:
     dependencies:
