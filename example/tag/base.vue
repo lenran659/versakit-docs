@@ -8,11 +8,11 @@
   </div>
 
   <div class="my">
-    <VerTag>Tag 1</VerTag>
-    <VerTag type="success">Tag 2</VerTag>
-    <VerTag type="info">Tag 3</VerTag>
-    <VerTag type="warning">Tag 4</VerTag>
-    <VerTag type="danger">Tag 5</VerTag>
+    <VerTag plain>Tag 1</VerTag>
+    <VerTag plain type="success">Tag 2</VerTag>
+    <VerTag plain type="info">Tag 3</VerTag>
+    <VerTag plain type="warning">Tag 4</VerTag>
+    <VerTag plain type="danger">Tag 5</VerTag>
   </div>
 
   <div class="my">

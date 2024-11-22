@@ -25,11 +25,15 @@ import {
   withCtx,
   withDirectives,
   withModifiers
-} from "./chunk-VJWGEPT5.js";
-import "./chunk-5WRI5ZAA.js";
+} from "./chunk-K3YURBPP.js";
+import "./chunk-G3PMV62Z.js";
 
-// node_modules/.pnpm/versakit-ui@0.1.2/node_modules/versakit-ui/dist/versakit-ui.js
-var ie = defineComponent({
+// node_modules/versakit-ui/dist/versakit-ui.js
+var c = (r, s) => (r.install = (t) => {
+  for (const e of [r, ...Object.values({})])
+    t.component(e.name, e);
+}, r);
+var M = defineComponent({
   __name: "index",
   props: {
     type: { type: String, required: false, default: "" },
@@ -37,147 +41,137 @@ var ie = defineComponent({
     round: { type: Boolean, required: true, default: false },
     disabled: { type: Boolean, required: true, default: false }
   },
-  setup(e, { expose: s }) {
+  setup(r, { expose: s }) {
     s();
-    const r = e, t = computed(() => [
+    const t = r, e = computed(() => [
       "ver-btn",
-      r.type == "" ? "" : `ver-btn-${r.type}`,
-      r.plain == false ? "" : "is-plain",
-      r.round == false ? "" : "is-round",
-      r.disabled == false ? "" : "is-disable"
-    ]), a = { props: r, Verclass: t };
+      t.type == "" ? "" : `ver-btn-${t.type}`,
+      t.plain == false ? "" : "is-plain",
+      t.round == false ? "" : "is-round",
+      t.disabled == false ? "" : "is-disable"
+    ]), a = { props: t, Verclass: e };
     return Object.defineProperty(a, "__isScriptSetup", { enumerable: false, value: true }), a;
   }
 });
-var d = (e, s) => {
-  const r = e.__vccOpts || e;
-  for (const [t, a] of s)
-    r[t] = a;
-  return r;
+var d = (r, s) => {
+  const t = r.__vccOpts || r;
+  for (const [e, a] of s)
+    t[e] = a;
+  return t;
 };
-var ue = ["disabled"];
-function de(e, s, r, t, a, n) {
+var R = ["disabled"];
+function L(r, s, t, e, a, n) {
   return openBlock(), createElementBlock("button", {
-    class: normalizeClass(t.Verclass),
-    disabled: t.props.disabled
+    class: normalizeClass(e.Verclass),
+    disabled: e.props.disabled
   }, [
     createBaseVNode("span", null, [
-      renderSlot(e.$slots, "default", {}, void 0, true)
+      renderSlot(r.$slots, "default", {}, void 0, true)
     ])
-  ], 10, ue);
+  ], 10, R);
 }
-var q = d(ie, [["render", de], ["__scopeId", "data-v-38d58db5"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/button/src/index.vue"]]);
-q.install = (e) => {
-  e.component("VerButton", q);
-};
-var le = defineComponent({
+var X = d(M, [["render", L], ["__scopeId", "data-v-38d58db5"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/button/src/index.vue"]]);
+var H = c(X);
+var U = defineComponent({
   __name: "index",
   props: {
     type: { type: String, required: false, default: "" },
     size: { type: [String, Number], required: true, default: "" },
     truncated: { type: Boolean, required: true, default: false }
   },
-  setup(e, { expose: s }) {
+  setup(r, { expose: s }) {
     s();
-    const r = e, t = computed(() => [
+    const t = r, e = computed(() => [
       "ver-text",
-      r.type == "" ? "" : `ver-text-${r.type}`,
-      r.size == "" ? "" : `ver-text-${r.size}`,
-      r.truncated == false ? "" : "is-truncated"
-    ]), a = { props: r, VerClass: t };
+      t.type == "" ? "" : `ver-text-${t.type}`,
+      t.size == "" ? "" : `ver-text-${t.size}`,
+      t.truncated == false ? "" : "is-truncated"
+    ]), a = { props: t, VerClass: e };
     return Object.defineProperty(a, "__isScriptSetup", { enumerable: false, value: true }), a;
   }
 });
-function ce(e, s, r, t, a, n) {
+function W(r, s, t, e, a, n) {
   return openBlock(), createElementBlock(
     "span",
     {
-      class: normalizeClass(t.VerClass)
+      class: normalizeClass(e.VerClass)
     },
     [
-      renderSlot(e.$slots, "default", {}, void 0, true)
+      renderSlot(r.$slots, "default", {}, void 0, true)
     ],
     2
     /* CLASS */
   );
 }
-var C = d(le, [["render", ce], ["__scopeId", "data-v-9ab8a636"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/text/src/index.vue"]]);
-C.install = (e) => {
-  e.component("VerText", C);
-};
-var _e = defineComponent({
+var G = d(U, [["render", W], ["__scopeId", "data-v-9ab8a636"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/text/src/index.vue"]]);
+var J = c(G);
+var K = defineComponent({
   __name: "index",
   props: {
     type: { type: String, required: true, default: "" },
     disabled: { type: Boolean, required: true, default: false },
     href: { type: String, required: true, default: "" }
   },
-  setup(e, { expose: s }) {
+  setup(r, { expose: s }) {
     s();
-    const r = e, t = computed(() => [
+    const t = r, e = computed(() => [
       "ver-link",
-      r.type == "" ? "" : `ver-link-${r.type}`,
-      r.disabled == false ? "" : "is-disable"
-    ]), a = { props: r, VerClass: t };
+      t.type == "" ? "" : `ver-link-${t.type}`,
+      t.disabled == false ? "" : "is-disable"
+    ]), a = { props: t, VerClass: e };
     return Object.defineProperty(a, "__isScriptSetup", { enumerable: false, value: true }), a;
   }
 });
-var pe = ["href"];
-function fe(e, s, r, t, a, n) {
+var Q = ["href"];
+function Y(r, s, t, e, a, n) {
   return openBlock(), createElementBlock("a", {
-    class: normalizeClass(t.VerClass),
-    href: r.href
+    class: normalizeClass(e.VerClass),
+    href: t.href
   }, [
     createBaseVNode("span", null, [
-      renderSlot(e.$slots, "default", {}, void 0, true)
+      renderSlot(r.$slots, "default", {}, void 0, true)
     ])
-  ], 10, pe);
+  ], 10, Q);
 }
-var w = d(_e, [["render", fe], ["__scopeId", "data-v-7c3ffbd2"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/link/src/index.vue"]]);
-w.install = (e) => {
-  e.component("VerLink", w);
-};
-var ve = {};
-var me = { class: "ver-row" };
-function he(e, s) {
-  return openBlock(), createElementBlock("div", me, [
-    renderSlot(e.$slots, "default", {}, void 0, true)
+var Z = d(K, [["render", Y], ["__scopeId", "data-v-7c3ffbd2"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/link/src/index.vue"]]);
+var ee = c(Z);
+var te = {};
+var re = { class: "ver-row" };
+function se(r, s) {
+  return openBlock(), createElementBlock("div", re, [
+    renderSlot(r.$slots, "default", {}, void 0, true)
   ]);
 }
-var D = d(ve, [["render", he], ["__scopeId", "data-v-870735ba"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/row/index.vue"]]);
-D.install = (e) => {
-  e.component("VerRow", D);
-};
-var be = defineComponent({
+var ae = d(te, [["render", se], ["__scopeId", "data-v-af61564f"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/row/src/index.vue"]]);
+var ne = c(ae);
+var oe = defineComponent({
   __name: "index",
   props: {
     span: { type: Number, required: true, default: 24 },
     offset: { type: Number, required: true, default: 0 }
   },
-  setup(e, { expose: s }) {
+  setup(r, { expose: s }) {
     s(), useCssVars((l) => ({
-      "23e88e5a-width": t.value,
+      "23e88e5a-width": e.value,
       "23e88e5a-offset": a.value
     }));
-    const r = e, t = ref(
-      r.span <= 24 && r.span % 1 == 0 ? 100 / 24 * r.span + "%" : ""
+    const t = r, e = ref(
+      t.span <= 24 && t.span % 1 == 0 ? 100 / 24 * t.span + "%" : ""
     ), a = ref(
-      r.offset <= 24 && r.offset % 1 == 0 ? 100 / 24 * r.offset + "%" : ""
-    ), n = { props: r, width: t, offset: a };
+      t.offset <= 24 && t.offset % 1 == 0 ? 100 / 24 * t.offset + "%" : ""
+    ), n = { props: t, width: e, offset: a };
     return Object.defineProperty(n, "__isScriptSetup", { enumerable: false, value: true }), n;
   }
 });
-var ye = { class: "ver-col" };
-function $e(e, s, r, t, a, n) {
-  return openBlock(), createElementBlock("div", ye, [
-    renderSlot(e.$slots, "default", {}, void 0, true)
+var ie = { class: "ver-col" };
+function ue(r, s, t, e, a, n) {
+  return openBlock(), createElementBlock("div", ie, [
+    renderSlot(r.$slots, "default", {}, void 0, true)
   ]);
 }
-var I = d(be, [["render", $e], ["__scopeId", "data-v-23e88e5a"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/col/src/index.vue"]]);
-I.install = (e) => {
-  e.component("VerCol", I);
-};
-var Ve = defineComponent({
+var de = d(oe, [["render", ue], ["__scopeId", "data-v-23e88e5a"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/col/src/index.vue"]]);
+var le = c(de);
+var ce = defineComponent({
   __name: "index",
   props: {
     placeholder: { type: String, required: true, default: "" },
@@ -186,40 +180,38 @@ var Ve = defineComponent({
     type: { type: String, required: true, default: "text" }
   },
   emits: ["update:modelValue"],
-  setup(e, { expose: s, emit: r }) {
+  setup(r, { expose: s, emit: t }) {
     s();
-    const t = r, a = e, n = (y) => {
-      const k = y.target;
-      t("update:modelValue", k.value);
-    }, l = computed(() => ["ver-input", a.disabled == false ? "" : "is-disabled"]), v = { emit: t, props: a, input: n, VerClass: l };
-    return Object.defineProperty(v, "__isScriptSetup", { enumerable: false, value: true }), v;
+    const e = t, a = r, n = ($) => {
+      const g = $.target;
+      e("update:modelValue", g.value);
+    }, l = computed(() => ["ver-input", a.disabled == false ? "" : "is-disabled"]), m = { emit: e, props: a, input: n, VerClass: l };
+    return Object.defineProperty(m, "__isScriptSetup", { enumerable: false, value: true }), m;
   }
 });
-var ke = ["disabled", "value", "type", "placeholder"];
-function ge(e, s, r, t, a, n) {
+var _e = ["disabled", "value", "type", "placeholder"];
+function pe(r, s, t, e, a, n) {
   return openBlock(), createElementBlock(
     "div",
     {
-      class: normalizeClass(t.VerClass)
+      class: normalizeClass(e.VerClass)
     },
     [
       createBaseVNode("input", {
-        disabled: r.disabled,
-        value: r.modelValue,
-        type: r.type,
-        placeholder: r.placeholder,
-        onInput: t.input
-      }, null, 40, ke)
+        disabled: t.disabled,
+        value: t.modelValue,
+        type: t.type,
+        placeholder: t.placeholder,
+        onInput: e.input
+      }, null, 40, _e)
     ],
     2
     /* CLASS */
   );
 }
-var j = d(Ve, [["render", ge], ["__scopeId", "data-v-1012d14b"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/input/src/index.vue"]]);
-j.install = (e) => {
-  e.component("VerInput", j);
-};
-var xe = defineComponent({
+var fe = d(ce, [["render", pe], ["__scopeId", "data-v-1012d14b"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/input/src/index.vue"]]);
+var ve = c(fe);
+var me = defineComponent({
   __name: "index",
   props: {
     title: { type: String, required: true, default: "标题" },
@@ -228,22 +220,22 @@ var xe = defineComponent({
     top: { type: String, required: true, default: "15vh" }
   },
   emits: ["update:modelValue"],
-  setup(e, { expose: s, emit: r }) {
+  setup(r, { expose: s, emit: t }) {
     s();
-    const t = e, a = r, l = { props: t, emit: a, close: () => {
+    const e = r, a = t, l = { props: e, emit: a, close: () => {
       a("update:modelValue", false);
     } };
     return Object.defineProperty(l, "__isScriptSetup", { enumerable: false, value: true }), l;
   }
 });
-var Ee = { class: "ver-dialog_header" };
-var Se = { class: "ver-dialog_title" };
-var qe = { class: "ver-dialog_body" };
-var Ce = {
+var he = { class: "ver-dialog_header" };
+var be = { class: "ver-dialog_title" };
+var ye = { class: "ver-dialog_body" };
+var $e = {
   key: 0,
   class: "ver-dialog_footer"
 };
-function we(e, s, r, t, a, n) {
+function ke(r, s, t, e, a, n) {
   return openBlock(), createBlock(Transition, {
     name: "fade",
     persisted: ""
@@ -253,36 +245,36 @@ function we(e, s, r, t, a, n) {
         "div",
         {
           class: "ver-dialog_wrapper",
-          onClick: withModifiers(t.close, ["self"])
+          onClick: withModifiers(e.close, ["self"])
         },
         [
           createBaseVNode(
             "div",
             {
               class: "ver-dialog",
-              style: normalizeStyle({ width: t.props.width, marginTop: t.props.top })
+              style: normalizeStyle({ width: e.props.width, marginTop: e.props.top })
             },
             [
-              createBaseVNode("div", Ee, [
-                renderSlot(e.$slots, "title", {}, () => [
+              createBaseVNode("div", he, [
+                renderSlot(r.$slots, "title", {}, () => [
                   createBaseVNode(
                     "span",
-                    Se,
-                    toDisplayString(t.props.title),
+                    be,
+                    toDisplayString(e.props.title),
                     1
                     /* TEXT */
                   )
                 ], true),
                 createBaseVNode("button", {
                   class: "ver-dialog_headerbtn",
-                  onClick: t.close
+                  onClick: e.close
                 }, "X")
               ]),
-              createBaseVNode("div", qe, [
-                renderSlot(e.$slots, "default", {}, void 0, true)
+              createBaseVNode("div", ye, [
+                renderSlot(r.$slots, "default", {}, void 0, true)
               ]),
-              e.$slots.footer ? (openBlock(), createElementBlock("div", Ce, [
-                renderSlot(e.$slots, "footer", {}, void 0, true)
+              r.$slots.footer ? (openBlock(), createElementBlock("div", $e, [
+                renderSlot(r.$slots, "footer", {}, void 0, true)
               ])) : createCommentVNode("v-if", true)
             ],
             4
@@ -292,182 +284,174 @@ function we(e, s, r, t, a, n) {
         512
         /* NEED_PATCH */
       ), [
-        [vShow, t.props.modelValue]
+        [vShow, e.props.modelValue]
       ])
     ]),
     _: 3
     /* FORWARDED */
   });
 }
-var O = d(xe, [["render", we], ["__scopeId", "data-v-3e602013"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/dialog/src/index.vue"]]);
-O.install = (e) => {
-  e.component("VerDialog", O);
-};
-var De = defineComponent({
+var xe = d(me, [["render", ke], ["__scopeId", "data-v-3e602013"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/dialog/src/index.vue"]]);
+var ge = c(xe);
+var Ve = defineComponent({
   __name: "index",
   props: {
     position: { type: String, required: true, default: "left" },
     direction: { type: String, required: true, default: "horizontal" }
   },
-  setup(e, { expose: s }) {
+  setup(r, { expose: s }) {
     s();
-    const t = { props: e };
-    return Object.defineProperty(t, "__isScriptSetup", { enumerable: false, value: true }), t;
+    const e = { props: r };
+    return Object.defineProperty(e, "__isScriptSetup", { enumerable: false, value: true }), e;
   }
 });
-var Ie = {
+var Ee = {
   key: 0,
   class: "ver-divider-title"
 };
-function je(e, s, r, t, a, n) {
+function Se(r, s, t, e, a, n) {
   return openBlock(), createElementBlock(
     "div",
     {
-      class: normalizeClass(["ver-divider", { "ver-vertical": t.props.direction === "vertical" }]),
+      class: normalizeClass(["ver-divider", { "ver-vertical": e.props.direction === "vertical" }]),
       style: normalizeStyle({
-        "justify-content": t.props.position
+        "justify-content": e.props.position
       })
     },
     [
-      t.props.position ? (openBlock(), createElementBlock("div", Ie, [
-        renderSlot(e.$slots, "default", {}, void 0, true)
+      e.props.position ? (openBlock(), createElementBlock("div", Ee, [
+        renderSlot(r.$slots, "default", {}, void 0, true)
       ])) : createCommentVNode("v-if", true)
     ],
     6
     /* CLASS, STYLE */
   );
 }
-var B = d(De, [["render", je], ["__scopeId", "data-v-1d3bc4c1"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/divider/src/index.vue"]]);
-B.install = (e) => {
-  e.component("VerDivider", B);
-};
-var Oe = defineComponent({
+var qe = d(Ve, [["render", Se], ["__scopeId", "data-v-1d3bc4c1"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/divider/src/index.vue"]]);
+var Ce = c(qe);
+var we = defineComponent({
   __name: "index",
   props: {
     shape: { type: String, required: false, default: "circle" },
     src: { type: String, required: true, default: "" },
     size: { type: Number, required: true, default: 32 }
   },
-  setup(e, { expose: s }) {
+  setup(r, { expose: s }) {
     s(), useCssVars((l) => ({
-      "d9a29420-size": t
+      "d9a29420-size": e
     }));
-    const r = e, t = r.size + "px", a = computed(() => ["ver-avatar", r.shape == "circle" ? "is-circle" : "is-square"]), n = { props: r, size: t, tClass: a };
+    const t = r, e = t.size + "px", a = computed(() => ["ver-avatar", t.shape == "circle" ? "is-circle" : "is-square"]), n = { props: t, size: e, tClass: a };
     return Object.defineProperty(n, "__isScriptSetup", { enumerable: false, value: true }), n;
   }
 });
-var Be = ["src"];
-function Pe(e, s, r, t, a, n) {
+var De = ["src"];
+function Ie(r, s, t, e, a, n) {
   return openBlock(), createElementBlock(
     "span",
     {
-      class: normalizeClass(t.tClass)
+      class: normalizeClass(e.tClass)
     },
     [
-      createBaseVNode("img", { src: r.src }, null, 8, Be)
+      createBaseVNode("img", { src: t.src }, null, 8, De)
     ],
     2
     /* CLASS */
   );
 }
-var P = d(Oe, [["render", Pe], ["__scopeId", "data-v-d9a29420"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/avatar/src/index.vue"]]);
-P.install = (e) => {
-  e.component("VerAvatar", P);
-};
-var Ne = defineComponent({
+var je = d(we, [["render", Ie], ["__scopeId", "data-v-d9a29420"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/avatar/src/index.vue"]]);
+var Oe = c(je);
+var Be = defineComponent({
   __name: "index",
   props: {
     shadow: { type: String, required: true, default: "always" }
   },
-  setup(e, { expose: s }) {
+  setup(r, { expose: s }) {
     s();
-    const r = e, t = computed(() => [
+    const t = r, e = computed(() => [
       "ver-card",
-      r.shadow == "always" ? "is-shadow-always" : r.shadow == "hover" ? "is-shadow-hover" : "is-shadow-never"
-    ]), a = { props: r, VerClass: t };
+      t.shadow == "always" ? "is-shadow-always" : t.shadow == "hover" ? "is-shadow-hover" : "is-shadow-never"
+    ]), a = { props: t, VerClass: e };
     return Object.defineProperty(a, "__isScriptSetup", { enumerable: false, value: true }), a;
   }
 });
-var Te = {
+var Pe = {
   key: 0,
   class: "ver-card-header"
 };
-var ze = { class: "ver-card-body" };
-function Ae(e, s, r, t, a, n) {
+var Ne = { class: "ver-card-body" };
+function Te(r, s, t, e, a, n) {
   return openBlock(), createElementBlock(
     "div",
     {
-      class: normalizeClass(t.VerClass)
+      class: normalizeClass(e.VerClass)
     },
     [
-      e.$slots.header ? (openBlock(), createElementBlock("div", Te, [
-        renderSlot(e.$slots, "header", {}, void 0, true)
+      r.$slots.header ? (openBlock(), createElementBlock("div", Pe, [
+        renderSlot(r.$slots, "header", {}, void 0, true)
       ])) : createCommentVNode("v-if", true),
-      createBaseVNode("div", ze, [
-        renderSlot(e.$slots, "default", {}, void 0, true)
+      createBaseVNode("div", Ne, [
+        renderSlot(r.$slots, "default", {}, void 0, true)
       ])
     ],
     2
     /* CLASS */
   );
 }
-var N = d(Ne, [["render", Ae], ["__scopeId", "data-v-a4b80a96"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/card/src/index.vue"]]);
-N.intsall = (e) => {
-  e.component("VerCard", N);
-};
+var ze = d(Be, [["render", Te], ["__scopeId", "data-v-a4b80a96"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/card/src/index.vue"]]);
+var Ae = c(ze);
 var Fe = defineComponent({
   __name: "index",
   props: {
     type: { type: String, required: false, default: "" },
+    plain: { type: Boolean, required: true, default: false },
     round: { type: Boolean, required: true, default: false }
   },
-  setup(e, { expose: s }) {
+  setup(r, { expose: s }) {
     s();
-    const r = e, t = computed(() => [
+    const t = r, e = computed(() => [
       "ver-tag",
-      r.type == "" ? "" : `ver-tag-${r.type}`,
-      r.round == false ? "" : "is-round"
-    ]), a = { props: r, tClass: t };
+      t.type == "" ? "" : `ver-tag-${t.type}`,
+      t.round == false ? "" : "is-round",
+      t.plain == false ? "" : "is-plain"
+    ]), a = { props: t, tClass: e };
     return Object.defineProperty(a, "__isScriptSetup", { enumerable: false, value: true }), a;
   }
 });
-function Me(e, s, r, t, a, n) {
+function Me(r, s, t, e, a, n) {
   return openBlock(), createElementBlock(
     "span",
     {
-      class: normalizeClass(t.tClass)
+      class: normalizeClass(e.tClass)
     },
     [
-      renderSlot(e.$slots, "default", {}, void 0, true)
+      renderSlot(r.$slots, "default", {}, void 0, true)
     ],
     2
     /* CLASS */
   );
 }
-var T = d(Fe, [["render", Me], ["__scopeId", "data-v-8a8f2805"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/tag/src/index.vue"]]);
-T.install = (e) => {
-  e.component("VerTag", T);
-};
-var Re = defineComponent({
+var Re = d(Fe, [["render", Me], ["__scopeId", "data-v-8a8f2805"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/tag/src/index.vue"]]);
+var Le = c(Re);
+var Xe = defineComponent({
   __name: "index",
   props: {
     title: { type: String, required: true },
     modelValue: { type: Boolean, required: true, default: false }
   },
   emits: ["update:modelValue"],
-  setup(e, { expose: s, emit: r }) {
+  setup(r, { expose: s, emit: t }) {
     s();
-    const t = e, a = r, l = { props: t, emit: a, handleClose: () => {
+    const e = r, a = t, l = { props: e, emit: a, handleClose: () => {
       a("update:modelValue", false);
     } };
     return Object.defineProperty(l, "__isScriptSetup", { enumerable: false, value: true }), l;
   }
 });
-var Le = { class: "ver-drawer" };
-var Xe = { class: "ver-drawer_header" };
-var He = { class: "ver-drawer_title" };
-var Ue = { class: "ver-drawer_body" };
-function We(e, s, r, t, a, n) {
+var He = { class: "ver-drawer" };
+var Ue = { class: "ver-drawer_header" };
+var We = { class: "ver-drawer_title" };
+var Ge = { class: "ver-drawer_body" };
+function Je(r, s, t, e, a, n) {
   return openBlock(), createBlock(Transition, {
     name: "fade",
     persisted: ""
@@ -477,71 +461,69 @@ function We(e, s, r, t, a, n) {
         "div",
         {
           class: "ver-drawer_wrapper",
-          onClick: withModifiers(t.handleClose, ["self"])
+          onClick: withModifiers(e.handleClose, ["self"])
         },
         [
-          createBaseVNode("div", Le, [
-            createBaseVNode("div", Xe, [
+          createBaseVNode("div", He, [
+            createBaseVNode("div", Ue, [
               createBaseVNode(
                 "span",
-                He,
-                toDisplayString(t.props.title),
+                We,
+                toDisplayString(e.props.title),
                 1
                 /* TEXT */
               ),
               createBaseVNode("button", {
                 class: "ver-drawer_headerbtn",
-                onClick: t.handleClose
+                onClick: e.handleClose
               }, "X")
             ]),
-            createBaseVNode("div", Ue, [
-              renderSlot(e.$slots, "default", {}, void 0, true)
+            createBaseVNode("div", Ge, [
+              renderSlot(r.$slots, "default", {}, void 0, true)
             ])
           ])
         ],
         512
         /* NEED_PATCH */
       ), [
-        [vShow, t.props.modelValue]
+        [vShow, e.props.modelValue]
       ])
     ]),
     _: 3
     /* FORWARDED */
   });
 }
-var z = d(Re, [["render", We], ["__scopeId", "data-v-5089ccc8"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/drawer/src/index.vue"]]);
-z.insatll = (e) => {
-  e.component("VerDrawer", z);
-};
-var Ge = defineComponent({
+var Ke = d(Xe, [["render", Je], ["__scopeId", "data-v-5089ccc8"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/drawer/src/index.vue"]]);
+var Qe = c(Ke);
+var Ye = defineComponent({
   __name: "index",
   props: {
     modelValue: { type: Boolean, required: true, default: false }
   },
   emits: ["input", "update:modelValue"],
-  setup(e, { expose: s, emit: r }) {
+  setup(r, { expose: s, emit: t }) {
     s();
-    const t = e, a = r, n = computed(() => ["ver-switch", t.modelValue == false ? "" : "is-checked"]), v = { props: t, emit: a, VerClass: n, handClick: () => {
-      a("input", !t.modelValue), a("update:modelValue", !t.modelValue);
+    const e = r, a = t, n = computed(() => ["ver-switch", e.modelValue == false ? "" : "is-checked"]), m = { props: e, emit: a, VerClass: n, handClick: () => {
+      a("input", !e.modelValue), a("update:modelValue", !e.modelValue);
     } };
-    return Object.defineProperty(v, "__isScriptSetup", { enumerable: false, value: true }), v;
+    return Object.defineProperty(m, "__isScriptSetup", { enumerable: false, value: true }), m;
   }
 });
-var Je = {
+var Ze = {
   class: "ver-switch-core",
   ref: "core"
 };
-function Ke(e, s, r, t, a, n) {
+function et(r, s, t, e, a, n) {
   return openBlock(), createElementBlock(
     "label",
     {
-      class: normalizeClass(t.VerClass),
-      onClick: t.handClick
+      class: normalizeClass(e.VerClass),
+      onClick: e.handClick
     },
     [
       createBaseVNode(
         "span",
-        Je,
+        Ze,
         s[0] || (s[0] = [
           createBaseVNode(
             "span",
@@ -559,11 +541,9 @@ function Ke(e, s, r, t, a, n) {
     /* CLASS */
   );
 }
-var A = d(Ge, [["render", Ke], ["__scopeId", "data-v-a0738249"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/switch/src/index.vue"]]);
-A.insatll = (e) => {
-  e.component("VerSwitch", A);
-};
-var Qe = defineComponent({
+var tt = d(Ye, [["render", et], ["__scopeId", "data-v-a0738249"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/switch/src/index.vue"]]);
+var rt = c(tt);
+var st = defineComponent({
   __name: "index",
   props: {
     label: { type: [String, Number, Boolean], required: true, default: "" },
@@ -572,31 +552,31 @@ var Qe = defineComponent({
     disabled: { type: Boolean, required: true, default: false }
   },
   emits: ["update:modelValue"],
-  setup(e, { expose: s, emit: r }) {
+  setup(r, { expose: s, emit: t }) {
     s();
-    const t = ref(), a = r, n = e, l = computed({
+    const e = ref(), a = t, n = r, l = computed({
       get: () => n.modelValue,
-      set: (y) => {
-        a("update:modelValue", y), t.value && t.value.checked == l.value == n.label;
+      set: ($) => {
+        a("update:modelValue", $), e.value && e.value.checked == l.value == n.label;
       }
-    }), v = { radio: t, emit: a, props: n, modelValue: l };
-    return Object.defineProperty(v, "__isScriptSetup", { enumerable: false, value: true }), v;
+    }), m = { radio: e, emit: a, props: n, modelValue: l };
+    return Object.defineProperty(m, "__isScriptSetup", { enumerable: false, value: true }), m;
   }
 });
-var Ye = { class: "ver-radio_input" };
-var Ze = ["disabled", "name", "value"];
-var et = { class: "ver-radio_label" };
-function tt(e, s, r, t, a, n) {
+var at = { class: "ver-radio_input" };
+var nt = ["disabled", "name", "value"];
+var ot = { class: "ver-radio_label" };
+function it(r, s, t, e, a, n) {
   return openBlock(), createElementBlock(
     "label",
     {
       class: normalizeClass([
         "ver-radio",
-        { "is-checked": r.label == t.modelValue, "is-disabled": r.disabled }
+        { "is-checked": t.label == e.modelValue, "is-disabled": t.disabled }
       ])
     },
     [
-      createBaseVNode("span", Ye, [
+      createBaseVNode("span", at, [
         s[1] || (s[1] = createBaseVNode(
           "span",
           { class: "ver-radio_inner" },
@@ -605,25 +585,25 @@ function tt(e, s, r, t, a, n) {
           /* HOISTED */
         )),
         withDirectives(createBaseVNode("input", {
-          disabled: r.disabled,
+          disabled: t.disabled,
           ref: "radio",
           class: "ver-radio_original",
-          name: r.name,
-          "onUpdate:modelValue": s[0] || (s[0] = (l) => t.modelValue = l),
-          value: t.props.label,
+          name: t.name,
+          "onUpdate:modelValue": s[0] || (s[0] = (l) => e.modelValue = l),
+          value: e.props.label,
           type: "radio"
-        }, null, 8, Ze), [
-          [vModelRadio, t.modelValue]
+        }, null, 8, nt), [
+          [vModelRadio, e.modelValue]
         ])
       ]),
-      createBaseVNode("span", et, [
-        renderSlot(e.$slots, "default", {}, void 0, true),
-        e.$slots.default ? createCommentVNode("v-if", true) : (openBlock(), createElementBlock(
+      createBaseVNode("span", ot, [
+        renderSlot(r.$slots, "default", {}, void 0, true),
+        r.$slots.default ? createCommentVNode("v-if", true) : (openBlock(), createElementBlock(
           Fragment,
           { key: 0 },
           [
             createTextVNode(
-              toDisplayString(r.label),
+              toDisplayString(t.label),
               1
               /* TEXT */
             )
@@ -637,11 +617,9 @@ function tt(e, s, r, t, a, n) {
     /* CLASS */
   );
 }
-var F = d(Qe, [["render", tt], ["__scopeId", "data-v-daf82e39"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/radio/src/index.vue"]]);
-F.install = (e) => {
-  e.component("VerRadio", F);
-};
-var rt = defineComponent({
+var ut = d(st, [["render", it], ["__scopeId", "data-v-daf82e39"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/radio/src/index.vue"]]);
+var dt = c(ut);
+var lt = defineComponent({
   __name: "index",
   props: {
     type: { type: String, required: true, default: "info" },
@@ -650,36 +628,36 @@ var rt = defineComponent({
     destroy: { type: Function, required: true, default: () => {
     } }
   },
-  setup(e, { expose: s }) {
+  setup(r, { expose: s }) {
     s();
-    const r = ref(false), t = e, a = computed(() => ["ver-message", t.type == "" ? "" : `ver-message-${t.type}`]);
+    const t = ref(false), e = r, a = computed(() => ["ver-message", e.type == "" ? "" : `ver-message-${e.type}`]);
     onMounted(() => {
-      r.value = true, setTimeout(() => {
-        r.value = false;
-      }, t.duration);
+      t.value = true, setTimeout(() => {
+        t.value = false;
+      }, e.duration);
     });
-    const n = { isVisable: r, props: t, VerClass: a };
+    const n = { isVisable: t, props: e, VerClass: a };
     return Object.defineProperty(n, "__isScriptSetup", { enumerable: false, value: true }), n;
   }
 });
-var st = { class: "text" };
-function at(e, s, r, t, a, n) {
+var ct = { class: "text" };
+function _t(r, s, t, e, a, n) {
   return openBlock(), createBlock(Transition, {
     name: "down",
-    onAfterLeave: r.destroy,
+    onAfterLeave: t.destroy,
     persisted: ""
   }, {
     default: withCtx(() => [
       withDirectives(createBaseVNode(
         "div",
         {
-          class: normalizeClass(t.VerClass)
+          class: normalizeClass(e.VerClass)
         },
         [
           createBaseVNode(
             "span",
-            st,
-            toDisplayString(r.content),
+            ct,
+            toDisplayString(t.content),
             1
             /* TEXT */
           )
@@ -687,26 +665,26 @@ function at(e, s, r, t, a, n) {
         2
         /* CLASS */
       ), [
-        [vShow, t.isVisable]
+        [vShow, e.isVisable]
       ])
     ]),
     _: 1
     /* STABLE */
   }, 8, ["onAfterLeave"]);
 }
-var ee = d(rt, [["render", at], ["__scopeId", "data-v-0cc628b7"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/message/src/index.vue"]]);
-var Nt = ({ type: e, content: s, duration: r = 3e3 }) => {
-  const a = h(ee, {
-    type: e,
+var B = d(lt, [["render", _t], ["__scopeId", "data-v-0cc628b7"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/message/src/index.vue"]]);
+var ar = ({ type: r, content: s, duration: t = 3e3 }) => {
+  const a = h(B, {
+    type: r,
     content: s,
-    duration: r,
+    duration: t,
     destroy: () => {
       render(null, document.body);
     }
   });
   render(a, document.body);
 };
-var nt = defineComponent({
+var pt = defineComponent({
   __name: "index",
   props: {
     disabled: { type: Boolean, required: true, default: false },
@@ -715,39 +693,39 @@ var nt = defineComponent({
     maxlength: { type: Number, required: true, default: 10 }
   },
   emits: ["update:modelValue", "input"],
-  setup(e, { expose: s, emit: r }) {
-    var J;
+  setup(r, { expose: s, emit: t }) {
+    var w;
     s();
-    const t = e, a = ref(((J = t.modelValue) == null ? void 0 : J.length) || 0), n = ref(), l = r, v = () => {
+    const e = r, a = ref(((w = e.modelValue) == null ? void 0 : w.length) || 0), n = ref(), l = t, m = () => {
       l("update:modelValue", n.value.value), a.value = n.value.value.length;
-    }, y = computed(() => ["ver-textarea", t.disabled == false ? "" : "is-disable"]), k = { props: t, n: a, textareaRef: n, emit: l, input: v, tClass: y };
-    return Object.defineProperty(k, "__isScriptSetup", { enumerable: false, value: true }), k;
+    }, $ = computed(() => ["ver-textarea", e.disabled == false ? "" : "is-disable"]), g = { props: e, n: a, textareaRef: n, emit: l, input: m, tClass: $ };
+    return Object.defineProperty(g, "__isScriptSetup", { enumerable: false, value: true }), g;
   }
 });
-var ot = ["disabled", "placeholder", "maxlength", "value"];
-var it = {
+var ft = ["disabled", "placeholder", "maxlength", "value"];
+var vt = {
   key: 0,
   class: "maxlength-box"
 };
-function ut(e, s, r, t, a, n) {
+function mt(r, s, t, e, a, n) {
   return openBlock(), createElementBlock(
     "div",
     {
-      class: normalizeClass(t.tClass)
+      class: normalizeClass(e.tClass)
     },
     [
       createBaseVNode("textarea", {
         ref: "textareaRef",
-        disabled: t.props.disabled,
-        placeholder: r.placeholder,
-        maxlength: r.maxlength,
-        value: r.modelValue,
-        onInput: t.input
-      }, null, 40, ot),
-      r.maxlength != null && r.maxlength > 0 ? (openBlock(), createElementBlock(
+        disabled: e.props.disabled,
+        placeholder: t.placeholder,
+        maxlength: t.maxlength,
+        value: t.modelValue,
+        onInput: e.input
+      }, null, 40, ft),
+      t.maxlength != null && t.maxlength > 0 ? (openBlock(), createElementBlock(
         "div",
-        it,
-        toDisplayString(`${t.n}/${r.maxlength}`),
+        vt,
+        toDisplayString(`${e.n}/${t.maxlength}`),
         1
         /* TEXT */
       )) : createCommentVNode("v-if", true)
@@ -756,44 +734,36 @@ function ut(e, s, r, t, a, n) {
     /* CLASS */
   );
 }
-var M = d(nt, [["render", ut], ["__scopeId", "data-v-79dc0524"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/textarea/src/index.vue"]]);
-M.install = (e) => {
-  e.component("VerTextarea", M);
-};
-var dt = {};
-var lt = { class: "ver-container" };
-function ct(e, s) {
-  return openBlock(), createElementBlock("div", lt, [
-    renderSlot(e.$slots, "default", {}, void 0, true)
+var ht = d(pt, [["render", mt], ["__scopeId", "data-v-79dc0524"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/textarea/src/index.vue"]]);
+var bt = c(ht);
+var yt = {};
+var $t = { class: "ver-container" };
+function kt(r, s) {
+  return openBlock(), createElementBlock("div", $t, [
+    renderSlot(r.$slots, "default", {}, void 0, true)
   ]);
 }
-var R = d(dt, [["render", ct], ["__scopeId", "data-v-9201423e"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/container/src/index.vue"]]);
-R.install = (e) => {
-  e.component("VerContainer", R);
-};
-var _t = {};
-var pt = { class: "ver-header" };
-function ft(e, s) {
-  return openBlock(), createElementBlock("div", pt, [
-    renderSlot(e.$slots, "default", {}, void 0, true)
+var xt = d(yt, [["render", kt], ["__scopeId", "data-v-9201423e"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/container/src/index.vue"]]);
+var gt = c(xt);
+var Vt = {};
+var Et = { class: "ver-header" };
+function St(r, s) {
+  return openBlock(), createElementBlock("div", Et, [
+    renderSlot(r.$slots, "default", {}, void 0, true)
   ]);
 }
-var L = d(_t, [["render", ft], ["__scopeId", "data-v-70873b22"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/header/index.vue"]]);
-L.install = (e) => {
-  e.component("VerHeader", L);
-};
-var vt = {};
-var mt = { class: "ver-main" };
-function ht(e, s) {
-  return openBlock(), createElementBlock("div", mt, [
-    renderSlot(e.$slots, "default", {}, void 0, true)
+var qt = d(Vt, [["render", St], ["__scopeId", "data-v-1aea8349"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/header/src/index.vue"]]);
+var Ct = c(qt);
+var wt = {};
+var Dt = { class: "ver-main" };
+function It(r, s) {
+  return openBlock(), createElementBlock("div", Dt, [
+    renderSlot(r.$slots, "default", {}, void 0, true)
   ]);
 }
-var X = d(vt, [["render", ht], ["__scopeId", "data-v-a5038a7c"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/main/index.vue"]]);
-X.install = (e) => {
-  e.component("VerMain", X);
-};
-var bt = defineComponent({
+var jt = d(wt, [["render", It], ["__scopeId", "data-v-331ab468"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/main/src/index.vue"]]);
+var Ot = c(jt);
+var Bt = defineComponent({
   __name: "index",
   props: {
     title: { type: String, required: true, default: "" },
@@ -802,240 +772,234 @@ var bt = defineComponent({
     destroy: { type: Function, required: true, default: () => {
     } }
   },
-  setup(e, { expose: s }) {
+  setup(r, { expose: s }) {
     s();
-    const r = e, t = ref(false), a = () => {
-      t.value = false;
+    const t = r, e = ref(false), a = () => {
+      e.value = false;
     };
     onMounted(() => {
-      t.value = true, setTimeout(() => {
-        t.value = false;
-      }, r.duration);
+      e.value = true, setTimeout(() => {
+        e.value = false;
+      }, t.duration);
     });
-    const n = { props: r, isVisable: t, handClose: a };
+    const n = { props: t, isVisable: e, handClose: a };
     return Object.defineProperty(n, "__isScriptSetup", { enumerable: false, value: true }), n;
   }
 });
-var yt = { class: "ver-notification" };
-var $t = { class: "ver-notification-title" };
-var Vt = { class: "ver-notification-content" };
-function kt(e, s, r, t, a, n) {
+var Pt = { class: "ver-notification" };
+var Nt = { class: "ver-notification-title" };
+var Tt = { class: "ver-notification-content" };
+function zt(r, s, t, e, a, n) {
   return openBlock(), createBlock(Transition, {
     name: "slide-fade",
-    onAfterLeave: t.props.destroy,
+    onAfterLeave: e.props.destroy,
     persisted: ""
   }, {
     default: withCtx(() => [
       withDirectives(createBaseVNode(
         "div",
-        yt,
+        Pt,
         [
           createBaseVNode(
             "h2",
-            $t,
-            toDisplayString(r.title),
+            Nt,
+            toDisplayString(t.title),
             1
             /* TEXT */
           ),
-          createBaseVNode("div", Vt, [
+          createBaseVNode("div", Tt, [
             createBaseVNode(
               "span",
               null,
-              toDisplayString(r.content),
+              toDisplayString(t.content),
               1
               /* TEXT */
             )
           ]),
           createBaseVNode("div", {
             class: "ver-notification-closebtn",
-            onClick: t.handClose
+            onClick: e.handClose
           }, "X")
         ],
         512
         /* NEED_PATCH */
       ), [
-        [vShow, t.isVisable]
+        [vShow, e.isVisable]
       ])
     ]),
     _: 1
     /* STABLE */
   }, 8, ["onAfterLeave"]);
 }
-var te = d(bt, [["render", kt], ["__scopeId", "data-v-8d9adfe2"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/notification/src/index.vue"]]);
-var Tt = ({ title: e, content: s, duration: r = 3e3 }) => {
-  const a = h(te, {
-    title: e,
+var P = d(Bt, [["render", zt], ["__scopeId", "data-v-8d9adfe2"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/notification/src/index.vue"]]);
+var nr = ({ title: r, content: s, duration: t = 3e3 }) => {
+  const a = h(P, {
+    title: r,
     content: s,
-    duration: r,
+    duration: t,
     destroy: () => {
       render(null, document.body);
     }
   });
   render(a, document.body);
 };
-var gt = defineComponent({
+var At = defineComponent({
   __name: "index",
   props: {
     title: { type: String, required: true, default: "" },
     type: { type: String, required: true, default: "info" }
   },
-  setup(e, { expose: s }) {
+  setup(r, { expose: s }) {
     s();
-    const r = ref(true), t = e, a = computed(() => ["ver-alert", `ver-alert-${t.type}`]), l = { isShow: r, props: t, VerClass: a, handClick: () => {
-      r.value = false;
+    const t = ref(true), e = r, a = computed(() => ["ver-alert", `ver-alert-${e.type}`]), l = { isShow: t, props: e, VerClass: a, handClick: () => {
+      t.value = false;
     } };
     return Object.defineProperty(l, "__isScriptSetup", { enumerable: false, value: true }), l;
   }
 });
-var xt = { class: "ver-alert_inner" };
-function Et(e, s, r, t, a, n) {
+var Ft = { class: "ver-alert_inner" };
+function Mt(r, s, t, e, a, n) {
   return withDirectives((openBlock(), createElementBlock(
     "div",
     {
-      class: normalizeClass(t.VerClass)
+      class: normalizeClass(e.VerClass)
     },
     [
-      createBaseVNode("div", xt, [
+      createBaseVNode("div", Ft, [
         createBaseVNode(
           "span",
           null,
-          toDisplayString(r.title),
+          toDisplayString(t.title),
           1
           /* TEXT */
         ),
         createBaseVNode("span", {
           class: "ver-alert_closebtn",
-          onClick: t.handClick
+          onClick: e.handClick
         }, "X")
       ])
     ],
     2
     /* CLASS */
   )), [
-    [vShow, t.isShow]
+    [vShow, e.isShow]
   ]);
 }
-var H = d(gt, [["render", Et], ["__scopeId", "data-v-17b60d08"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/alert/src/index.vue"]]);
-H.install = (e) => {
-  e.component("VerAlert", H);
-};
-var St = defineComponent({
+var Rt = d(At, [["render", Mt], ["__scopeId", "data-v-17b60d08"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/alert/src/index.vue"]]);
+var Lt = c(Rt);
+var Xt = defineComponent({
   __name: "index",
   props: {
     model: { type: Object, required: true },
     labelWidth: { type: [String, Number], required: true, default: "80px" }
   },
-  setup(e, { expose: s }) {
+  setup(r, { expose: s }) {
     s();
-    const r = ref(null);
-    provide("form", r);
-    const t = { form: r };
-    return Object.defineProperty(t, "__isScriptSetup", { enumerable: false, value: true }), t;
+    const t = ref(null);
+    provide("form", t);
+    const e = { form: t };
+    return Object.defineProperty(e, "__isScriptSetup", { enumerable: false, value: true }), e;
   }
 });
-var qt = { class: "ver-form" };
-function Ct(e, s, r, t, a, n) {
-  return openBlock(), createElementBlock("div", qt, [
-    renderSlot(e.$slots, "default")
+var Ht = { class: "ver-form" };
+function Ut(r, s, t, e, a, n) {
+  return openBlock(), createElementBlock("div", Ht, [
+    renderSlot(r.$slots, "default")
   ]);
 }
-var U = d(St, [["render", Ct], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/form/src/index.vue"]]);
-U.insatll = (e) => {
-  e.component("VerForm", U);
-};
-var wt = defineComponent({
+var Wt = d(Xt, [["render", Ut], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/form/src/index.vue"]]);
+var Gt = c(Wt);
+var Jt = defineComponent({
   __name: "index",
   props: {
     label: { type: [String, Number], required: true, default: "" }
   },
-  setup(e, { expose: s }) {
+  setup(r, { expose: s }) {
     s();
-    const r = e, t = inject("form"), a = computed(() => ({
-      width: t.labelWidth
-    })), n = { props: r, form: t, labelStyle: a };
+    const t = r, e = inject("form"), a = computed(() => ({
+      width: e.labelWidth
+    })), n = { props: t, form: e, labelStyle: a };
     return Object.defineProperty(n, "__isScriptSetup", { enumerable: false, value: true }), n;
   }
 });
-var Dt = { class: "ver-form-item" };
-var It = { class: "ver-form-item_content" };
-function jt(e, s, r, t, a, n) {
-  return openBlock(), createElementBlock("div", Dt, [
+var Kt = { class: "ver-form-item" };
+var Qt = { class: "ver-form-item_content" };
+function Yt(r, s, t, e, a, n) {
+  return openBlock(), createElementBlock("div", Kt, [
     createBaseVNode(
       "label",
       {
-        style: normalizeStyle(t.labelStyle),
+        style: normalizeStyle(e.labelStyle),
         class: "ver-form-item_label"
       },
-      toDisplayString(t.props.label),
+      toDisplayString(e.props.label),
       5
       /* TEXT, STYLE */
     ),
-    createBaseVNode("div", It, [
-      renderSlot(e.$slots, "default", {}, void 0, true)
+    createBaseVNode("div", Qt, [
+      renderSlot(r.$slots, "default", {}, void 0, true)
     ])
   ]);
 }
-var W = d(wt, [["render", jt], ["__scopeId", "data-v-c503e38a"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/formItem/src/index.vue"]]);
-W.install = (e) => {
-  e.component("VerFormItem", W);
-};
-var Ot = [
-  q,
-  D,
-  C,
-  w,
-  I,
-  j,
-  O,
-  P,
-  N,
-  T,
-  B,
-  z,
-  A,
-  F,
-  ee,
-  M,
-  R,
-  L,
-  X,
-  te,
+var Zt = d(Jt, [["render", Yt], ["__scopeId", "data-v-c503e38a"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/formItem/src/index.vue"]]);
+var er = c(Zt);
+var tr = [
   H,
-  U,
-  W
+  ne,
+  J,
+  ee,
+  le,
+  ve,
+  ge,
+  Oe,
+  Ae,
+  Le,
+  Ce,
+  Qe,
+  rt,
+  dt,
+  B,
+  bt,
+  gt,
+  Ct,
+  Ot,
+  P,
+  Lt,
+  Gt,
+  er
 ];
-var Bt = (e) => {
-  Ot.forEach((s) => {
-    e.use(s);
+var rr = (r) => {
+  tr.forEach((s) => {
+    r.use(s);
   });
 };
-var zt = {
-  install: Bt
+var or = {
+  install: rr
 };
 export {
-  H as VerAlert,
-  P as VerAvatar,
-  q as VerButton,
-  N as VerCard,
-  I as VerCol,
-  R as VerContainer,
-  O as VerDialog,
-  B as VerDivider,
-  z as VerDrawer,
-  U as VerForm,
-  W as VerFormItem,
-  L as VerHeader,
-  j as VerInput,
-  w as VerLink,
-  X as VerMain,
-  Nt as VerMessage,
-  Tt as VerNotification,
-  F as VerRadio,
-  D as VerRow,
-  A as VerSwitch,
-  T as VerTag,
-  C as VerText,
-  M as VerTextarea,
-  zt as default
+  Lt as VerAlert,
+  Oe as VerAvatar,
+  H as VerButton,
+  Ae as VerCard,
+  le as VerCol,
+  gt as VerContainer,
+  ge as VerDialog,
+  Ce as VerDivider,
+  Qe as VerDrawer,
+  Gt as VerForm,
+  er as VerFormItem,
+  Ct as VerHeader,
+  ve as VerInput,
+  ee as VerLink,
+  Ot as VerMain,
+  ar as VerMessage,
+  nr as VerNotification,
+  dt as VerRadio,
+  ne as VerRow,
+  rt as VerSwitch,
+  Le as VerTag,
+  J as VerText,
+  bt as VerTextarea,
+  or as default
 };
 //# sourceMappingURL=versakit-ui.js.map
