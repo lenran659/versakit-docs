@@ -7,7 +7,7 @@ import { VerTextarea } from "versakit-ui";
 </script>
 
 <style scoped>
-.t-textarea {
+.ver-textarea {
   width: 300px;
   height: 100px;
 }

@@ -25,8 +25,8 @@ import {
   withCtx,
   withDirectives,
   withModifiers
-} from "./chunk-K3YURBPP.js";
-import "./chunk-G3PMV62Z.js";
+} from "./chunk-VJWGEPT5.js";
+import "./chunk-5WRI5ZAA.js";
 
 // node_modules/versakit-ui/dist/versakit-ui.js
 var c = (r, s) => (r.install = (t) => {
@@ -48,7 +48,7 @@ var M = defineComponent({
       t.type == "" ? "" : `ver-btn-${t.type}`,
       t.plain == false ? "" : "is-plain",
       t.round == false ? "" : "is-round",
-      t.disabled == false ? "" : "is-disable"
+      t.disabled == false ? "" : "is-disabled"
     ]), a = { props: t, Verclass: e };
     return Object.defineProperty(a, "__isScriptSetup", { enumerable: false, value: true }), a;
   }
@@ -334,7 +334,7 @@ var we = defineComponent({
   props: {
     shape: { type: String, required: false, default: "circle" },
     src: { type: String, required: true, default: "" },
-    size: { type: Number, required: true, default: 32 }
+    size: { type: Number, required: true, default: 50 }
   },
   setup(r, { expose: s }) {
     s(), useCssVars((l) => ({
@@ -690,7 +690,7 @@ var pt = defineComponent({
     disabled: { type: Boolean, required: true, default: false },
     placeholder: { type: String, required: true, default: "" },
     modelValue: { type: String, required: true, default: "" },
-    maxlength: { type: Number, required: true, default: 10 }
+    maxlength: { type: Number, required: true, default: 0 }
   },
   emits: ["update:modelValue", "input"],
   setup(r, { expose: s, emit: t }) {
