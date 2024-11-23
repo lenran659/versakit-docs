@@ -1,11 +1,11 @@
 <template>
   <ver-row>
-    <ver-link class="mx4" disable>default</ver-link>
-    <ver-link class="mx4" disable type="primary">primary</ver-link>
-    <ver-link class="mx4" disable type="success">success</ver-link>
-    <ver-link class="mx4" disable type="info">info</ver-link>
-    <ver-link class="mx4" disable type="warning">warning</ver-link>
-    <ver-link class="mx4" disable type="danger">danger</ver-link>
+    <ver-link class="mx4" disabled>default</ver-link>
+    <ver-link class="mx4" disabled type="primary">primary</ver-link>
+    <ver-link class="mx4" disabled type="success">success</ver-link>
+    <ver-link class="mx4" disabled type="info">info</ver-link>
+    <ver-link class="mx4" disabled type="warning">warning</ver-link>
+    <ver-link class="mx4" disabled type="danger">danger</ver-link>
   </ver-row>
 </template>
 

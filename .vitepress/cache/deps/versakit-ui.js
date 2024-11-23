@@ -117,7 +117,7 @@ var K = defineComponent({
     const t = r, e = computed(() => [
       "ver-link",
       t.type == "" ? "" : `ver-link-${t.type}`,
-      t.disabled == false ? "" : "is-disable"
+      t.disabled == false ? "" : "is-disabled"
     ]), a = { props: t, VerClass: e };
     return Object.defineProperty(a, "__isScriptSetup", { enumerable: false, value: true }), a;
   }
@@ -296,6 +296,7 @@ var ge = c(xe);
 var Ve = defineComponent({
   __name: "index",
   props: {
+    line: { type: String, required: true, default: "solid" },
     position: { type: String, required: true, default: "left" },
     direction: { type: String, required: true, default: "horizontal" }
   },
@@ -305,21 +306,22 @@ var Ve = defineComponent({
     return Object.defineProperty(e, "__isScriptSetup", { enumerable: false, value: true }), e;
   }
 });
-var Ee = {
+var Se = {
   key: 0,
   class: "ver-divider-title"
 };
-function Se(r, s, t, e, a, n) {
+function Ee(r, s, t, e, a, n) {
   return openBlock(), createElementBlock(
     "div",
     {
       class: normalizeClass(["ver-divider", { "ver-vertical": e.props.direction === "vertical" }]),
       style: normalizeStyle({
-        "justify-content": e.props.position
+        "justify-content": e.props.position,
+        "border-top": `1px ${e.props.line} #dcdfe6`
       })
     },
     [
-      e.props.position ? (openBlock(), createElementBlock("div", Ee, [
+      e.props.position ? (openBlock(), createElementBlock("div", Se, [
         renderSlot(r.$slots, "default", {}, void 0, true)
       ])) : createCommentVNode("v-if", true)
     ],
@@ -327,7 +329,7 @@ function Se(r, s, t, e, a, n) {
     /* CLASS, STYLE */
   );
 }
-var qe = d(Ve, [["render", Se], ["__scopeId", "data-v-1d3bc4c1"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/divider/src/index.vue"]]);
+var qe = d(Ve, [["render", Ee], ["__scopeId", "data-v-1d3bc4c1"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/divider/src/index.vue"]]);
 var Ce = c(qe);
 var we = defineComponent({
   __name: "index",
@@ -746,13 +748,13 @@ function kt(r, s) {
 var xt = d(yt, [["render", kt], ["__scopeId", "data-v-9201423e"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/container/src/index.vue"]]);
 var gt = c(xt);
 var Vt = {};
-var Et = { class: "ver-header" };
-function St(r, s) {
-  return openBlock(), createElementBlock("div", Et, [
+var St = { class: "ver-header" };
+function Et(r, s) {
+  return openBlock(), createElementBlock("div", St, [
     renderSlot(r.$slots, "default", {}, void 0, true)
   ]);
 }
-var qt = d(Vt, [["render", St], ["__scopeId", "data-v-1aea8349"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/header/src/index.vue"]]);
+var qt = d(Vt, [["render", Et], ["__scopeId", "data-v-1aea8349"], ["__file", "D:/我的/代码/项目/versakit/packages/versakit-ui/components/header/src/index.vue"]]);
 var Ct = c(qt);
 var wt = {};
 var Dt = { class: "ver-main" };
