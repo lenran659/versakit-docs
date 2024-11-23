@@ -4,25 +4,35 @@ import { VerButton, VerRow } from "versakit-ui";
 
 <template>
   <ver-row class="mb-4">
-    <ver-button disabled>Default</ver-button>
-    <ver-button disabled type="primary">Primary</ver-button>
-    <ver-button disabled type="success">Success</ver-button>
-    <ver-button disabled type="info">Info</ver-button>
-    <ver-button disabled type="warning">Warning</ver-button>
-    <ver-button disabled type="danger">Danger</ver-button>
+    <ver-button disabled type="primary">按 钮</ver-button>
+    <ver-button disabled plain type="primary">按 钮</ver-button>
   </ver-row>
+
   <ver-row class="mb-4">
-    <ver-button disabled plain>Plain</ver-button>
-    <ver-button disabled plain type="primary">Primary</ver-button>
-    <ver-button disabled plain type="success">Success</ver-button>
-    <ver-button disabled plain type="info">Info</ver-button>
-    <ver-button disabled plain type="warning">Warning</ver-button>
-    <ver-button disabled plain type="danger">Danger</ver-button>
+    <ver-button disabled type="success">按 钮</ver-button>
+    <ver-button disabled plain round type="success">按 钮</ver-button>
+  </ver-row>
+
+  <ver-row class="mb-4">
+    <ver-button disabled type="info">按 钮</ver-button>
+    <ver-button disabled plain round type="info">按 钮</ver-button>
+  </ver-row>
+
+  <ver-row class="mb-4">
+    <ver-button disabled type="warning">按 钮</ver-button>
+    <ver-button disabled plain round type="warning">按 钮</ver-button>
+  </ver-row>
+
+  <ver-row class="mb-4">
+    <ver-button disabled type="danger">按 钮</ver-button>
+    <ver-button disabled plain round type="danger">按 钮</ver-button>
   </ver-row>
 </template>
 
 <style scoped>
 .mb-4 {
+  display: flex;
+  align-items: center;
   margin-bottom: 1rem;
 }
 .ver-btn + .ver-btn {

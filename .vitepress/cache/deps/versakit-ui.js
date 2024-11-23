@@ -690,7 +690,7 @@ var pt = defineComponent({
     disabled: { type: Boolean, required: true, default: false },
     placeholder: { type: String, required: true, default: "" },
     modelValue: { type: String, required: true, default: "" },
-    maxlength: { type: Number, required: true, default: 0 }
+    maxlength: { type: null, required: true, default: void 0 }
   },
   emits: ["update:modelValue", "input"],
   setup(r, { expose: s, emit: t }) {
