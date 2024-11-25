@@ -1,37 +1,37 @@
 {
-  "hash": "4547a7f2",
+  "hash": "bd703398",
   "configHash": "42fccc14",
-  "lockfileHash": "8e3b30b1",
-  "browserHash": "b73fcab0",
+  "lockfileHash": "13ba8f2b",
+  "browserHash": "8b7e1453",
   "optimized": {
     "vue": {
       "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "d8c48c27",
+      "fileHash": "d20e4922",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "7095b511",
+      "fileHash": "afac5cf9",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "e6cf98d6",
+      "fileHash": "548178af",
       "needsInterop": false
     },
     "versakit-ui": {
       "src": "../../../node_modules/versakit-ui/dist/versakit-ui.js",
       "file": "versakit-ui.js",
-      "fileHash": "48c57632",
+      "fileHash": "5ad4ac88",
       "needsInterop": false
     },
     "vitepress-demo-plugin": {
       "src": "../../../node_modules/vitepress-demo-plugin/dist/index.js",
       "file": "vitepress-demo-plugin.js",
-      "fileHash": "5f9049c0",
+      "fileHash": "e00c4a93",
       "needsInterop": false
     }
   },

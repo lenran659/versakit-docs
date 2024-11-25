@@ -38,7 +38,13 @@ export const getComponentsSidebar = (): DefaultTheme.Sidebar => {
     },
     {
       text: "Navigation 导航",
-      items: [{ text: "Backtop 回到顶部", link: "/components/backtop/" }],
+      items: [
+        { text: "Backtop 回到顶部", link: "/components/backtop/" },
+        {
+          text: "Tab 标签页",
+          link: "/components/tab/",
+        },
+      ],
     },
     {
       text: "Feedback 反馈组件",
