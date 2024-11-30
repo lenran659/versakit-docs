@@ -1,0 +1,46 @@
+{
+  "hash": "ac498f99",
+  "configHash": "23feb693",
+  "lockfileHash": "d489acff",
+  "browserHash": "5c5fb0ab",
+  "optimized": {
+    "vue": {
+      "src": "../../../node_modules/.pnpm/vue@3.5.13/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "be1fd73d",
+      "needsInterop": false
+    },
+    "vitepress > @vue/devtools-api": {
+      "src": "../../../node_modules/.pnpm/@vue+devtools-api@7.6.4/node_modules/@vue/devtools-api/dist/index.js",
+      "file": "vitepress___@vue_devtools-api.js",
+      "fileHash": "1af8f4f5",
+      "needsInterop": false
+    },
+    "vitepress > @vueuse/core": {
+      "src": "../../../node_modules/.pnpm/@vueuse+core@11.3.0_vue@3.5.13/node_modules/@vueuse/core/index.mjs",
+      "file": "vitepress___@vueuse_core.js",
+      "fileHash": "7f12ba38",
+      "needsInterop": false
+    },
+    "versakit-ui": {
+      "src": "../../../node_modules/.pnpm/versakit-ui@0.1.8/node_modules/versakit-ui/dist/versakit-ui.js",
+      "file": "versakit-ui.js",
+      "fileHash": "c34b55f2",
+      "needsInterop": false
+    },
+    "vitepress-demo-plugin": {
+      "src": "../../../node_modules/.pnpm/vitepress-demo-plugin@1.1.2_vitepress@1.5.0_@algolia+client-search@5.15.0_postcss@8.4.49_sear_twymbofweyuzwvyjfcorfzqrja/node_modules/vitepress-demo-plugin/dist/index.js",
+      "file": "vitepress-demo-plugin.js",
+      "fileHash": "d8d5dc28",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-CQOUZRMK": {
+      "file": "chunk-CQOUZRMK.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
+}
