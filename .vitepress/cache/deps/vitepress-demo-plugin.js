@@ -23,7 +23,7 @@ import {
   unref,
   watch,
   withCtx
-} from "./chunk-VJWGEPT5.js";
+} from "./chunk-CQOUZRMK.js";
 import {
   __commonJS,
   __toESM
@@ -55,7 +55,7 @@ var require_fs = __commonJS({
   }
 });
 
-// node_modules/vitepress-demo-plugin/dist/index.js
+// node_modules/.pnpm/vitepress-demo-plugin@1.1.2_vitepress@1.5.0_@algolia+client-search@5.15.0_postcss@8.4.49_sass_zi5o4wgz7ncqytrw6w73ko4lam/node_modules/vitepress-demo-plugin/dist/index.js
 var import_path = __toESM(require_path());
 var import_fs = __toESM(require_fs());
 var me = (e, t) => {
@@ -6795,7 +6795,7 @@ var ao = (e) => {
       n.unshift(a), e = e.substring(0, i);
     }
   }
-  return "Temp" + btoa(encodeURIComponent(n.join("-").split(".")[0])).replace(/=/g, "Equal");
+  return "Temp" + btoa(encodeURIComponent(n.join("-").split(".").slice(0, -1).join("."))).replace(/=/g, "Equal");
 };
 var oo = /title="(.*?)"/;
 var lo = /vue="(.*?)"/;

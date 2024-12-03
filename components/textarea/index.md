@@ -19,3 +19,14 @@
 使用<code>maxlength</code>属性启用
 
 <demo vue="../../example/textarea/maxlength.vue"></demo>
+
+
+## Textarea API
+
+### Textarea属性
+| 属性              | 说明     | 类型           | 默认值     |
+| ----------        | -------- | ---------      | --------- |
+| `disabled`        | 是否禁用 | `boolean`      | `false`   |
+| `placeholder	`        | 输入框占位文本 | `string`      | `空`   |
+| `modelValue`     | 绑定值 | `string`  | `空` |
+| `maxlength`     | 最大值 | `string`  | `undefined` |
