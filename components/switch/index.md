@@ -7,3 +7,10 @@
 绑定 <code>v-model</code>到一个<code>Boolean</code>类型的变量。
 
 <demo vue="../../example/switch/base.vue"></demo>
+
+
+## Switch API
+
+| 属性       | 说明     | 类型      | 默认值    |
+| ---------- | -------- | --------- | --------- |
+| `v-model`     | 绑定值 | `boolean`  | `false` |
