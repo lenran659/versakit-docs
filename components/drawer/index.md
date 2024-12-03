@@ -9,3 +9,12 @@
 绑定 `v-model`到一个`Boolean`类型的变量。
 
 <demo vue="../../example/drawer/base.vue"></demo>
+
+## Drawer API
+
+### Drawer 属性
+
+| 属性       | 说明     | 类型      | 默认值    |
+| ---------- | -------- | --------- | --------- |
+| `modelValue`     | 绑定值 | `string`  | `空` |
+
