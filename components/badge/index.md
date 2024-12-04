@@ -24,3 +24,14 @@
 使用 dot 属性。 是个布尔值。
 
 <demo vue="../../example/badge/dot.vue"></demo>
+
+## Badge API
+
+### Badge 属性
+
+| 属性       | 说明     | 类型      | 默认值    |
+| ---------- | -------- | --------- | --------- |
+| `type`     | 按钮的类型，例如可以是 `primary`（主要按钮）、`secondary`（次要按钮）等不同分类来表示不同样式风格 | `string`  | `default` |
+| `max`    |  最大值  | `number` | `99`   |
+| `value`    |  值  | `number` | `0`   |
+| `dot` | 判断是否使用小红点   | `boolean` | `false`   |

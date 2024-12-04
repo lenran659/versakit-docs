@@ -16,6 +16,7 @@ export const getComponentsSidebar = (): DefaultTheme.Sidebar => {
         { text: "Text 文本", link: "/components/text/" },
         { text: "Link 链接", link: "/components/link/" },
         { text: "Divider 分割线", link: "/components/divider/" },
+        { text: "Icon 图标", link: "/components/icons/"}
       ],
     },
     {
