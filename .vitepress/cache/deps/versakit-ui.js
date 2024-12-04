@@ -29,10 +29,10 @@ import {
   withCtx,
   withDirectives,
   withModifiers
-} from "./chunk-CQOUZRMK.js";
+} from "./chunk-VJWGEPT5.js";
 import "./chunk-5WRI5ZAA.js";
 
-// node_modules/.pnpm/versakit-ui@0.1.9/node_modules/versakit-ui/dist/versakit-ui.js
+// node_modules/versakit-ui/dist/versakit-ui.js
 var m = (l, o) => (l.install = (e) => {
   for (const c of [l, ...Object.values({})])
     e.component(c.name, c);

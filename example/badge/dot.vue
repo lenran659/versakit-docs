@@ -1,14 +1,17 @@
 <script setup lang="ts">
-import { VerButton, VerBadge, VerRow } from 'versakit-ui'
+import { VerButton, VerCol, VerBadge, VerRow, VerAvatar } from "versakit-ui";
 </script>
 
 <template>
-    <ver-row>
-        <ver-badge :dot="true">
-            <ver-button>comments</ver-button>
-        </ver-badge>
-        <ver-badge  :dot="true" type="danger">
-            <ver-button>replies</ver-button>
-        </ver-badge>
-    </ver-row>
+  <ver-row>
+    <ver-col :span="6">
+      <ver-badge dot type="success"> <VerAvatar src="../../assets/avatar.webp" /> </ver-badge>
+    </ver-col>
+
+    <ver-col :span="6">
+      <ver-badge dot type="danger">
+        <VerAvatar src="../../assets/avatar.webp" />
+      </ver-badge>
+    </ver-col>
+  </ver-row>
 </template>

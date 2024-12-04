@@ -1,43 +1,43 @@
 {
-  "hash": "224381c1",
-  "configHash": "a0a70ee7",
-  "lockfileHash": "10a01dda",
-  "browserHash": "ec0b6389",
+  "hash": "a17125b2",
+  "configHash": "42fccc14",
+  "lockfileHash": "e62dc5b8",
+  "browserHash": "d52ddd91",
   "optimized": {
     "vue": {
-      "src": "../../../node_modules/.pnpm/vue@3.5.13/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "src": "../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "3175b4d0",
+      "fileHash": "0721fb8a",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
-      "src": "../../../node_modules/.pnpm/@vue+devtools-api@7.6.4/node_modules/@vue/devtools-api/dist/index.js",
+      "src": "../../../node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "0d421400",
+      "fileHash": "c33d17b1",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
-      "src": "../../../node_modules/.pnpm/@vueuse+core@11.3.0_vue@3.5.13/node_modules/@vueuse/core/index.mjs",
+      "src": "../../../node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "27ce30d4",
+      "fileHash": "20d7315a",
       "needsInterop": false
     },
     "versakit-ui": {
-      "src": "../../../node_modules/.pnpm/versakit-ui@0.1.9/node_modules/versakit-ui/dist/versakit-ui.js",
+      "src": "../../../node_modules/versakit-ui/dist/versakit-ui.js",
       "file": "versakit-ui.js",
-      "fileHash": "8985da3f",
+      "fileHash": "1613b581",
       "needsInterop": false
     },
     "vitepress-demo-plugin": {
-      "src": "../../../node_modules/.pnpm/vitepress-demo-plugin@1.1.2_vitepress@1.5.0_@algolia+client-search@5.15.0_postcss@8.4.49_sass_frrabtaliiua75cdobuprxsecm/node_modules/vitepress-demo-plugin/dist/index.js",
+      "src": "../../../node_modules/vitepress-demo-plugin/dist/index.js",
       "file": "vitepress-demo-plugin.js",
-      "fileHash": "53d2d58b",
+      "fileHash": "c5cebaaa",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-CQOUZRMK": {
-      "file": "chunk-CQOUZRMK.js"
+    "chunk-VJWGEPT5": {
+      "file": "chunk-VJWGEPT5.js"
     },
     "chunk-5WRI5ZAA": {
       "file": "chunk-5WRI5ZAA.js"
